@@ -23,13 +23,4 @@ int main()
 
   std::cout << "Hello World!\n";
 }
-#include <vector>
-#include <iostream>
 
-void print_vector(std::vector<double> v)
-{
-  for (auto x : v)
-  {
-    std::cout << x << '\n';
-  }
-}
